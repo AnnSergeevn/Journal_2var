@@ -1,0 +1,75 @@
+@media (min-width:48em) {
+
+html{
+font-size:0.81vw;
+}
+
+.header__top_searche:hover{
+    width: 2.9rem;
+    height: 2.9rem;
+    
+}
+
+a.restore_access:hover{
+color: #A84F3D;
+font-weight:bold;
+}
+
+.language__Russia-Flag:hover{
+    box-shadow: 0.2rem 0.2rem 0rem 0rem #4A4A4A;
+}
+
+.language__United-States-Flag:hover{
+    box-shadow: 0.1rem 0.1rem 0rem 0rem #4A4A4A;
+} 
+
+a.left-bar__menu_item:hover {
+    text-decoration: none;
+    font-family:'Golos';
+    font-weight:bold;
+    font-size: 1.65rem;
+    line-height: 1.6rem;
+    top:4rem;
+    padding:0 0 0 0.93rem; /* Поля вокруг текста */
+    display:flex;
+    flex-direction:column;
+    width:23rem;
+    margin-left:1.5rem;
+    margin-top:1.5rem;
+    margin-bottom:0rem;
+    color: #A84F3D;
+
+   }
+
+.button-submit-article:hover:before{
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0rem;
+    height: 100%; /* Высота линии */
+    background-color: rgb(222, 222, 222); /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+  
+}
+
+.button-submit-article:hover {
+     color: #fff;
+} 
+
+
+a.Sign-in_regist:hover{
+color: #A84F3D;
+font-weight:bold;
+}
+
+
+
+
+a.Sign-in_question:hover{
+        color:#A84F3D;
+font-weight:bold;
+}
+
+
+}

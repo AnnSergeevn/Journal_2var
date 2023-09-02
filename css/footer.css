@@ -1,0 +1,54 @@
+
+
+.footer{
+background:#A84F3D;
+    height: 4.5rem;
+    width: 120rem;
+margin-top:1rem;
+}
+
+.footer_block{
+    
+    display:flex;
+    flex-direction:row;
+}
+.footer_left{
+width: 25.8rem;
+
+box-sizing: border-box; 
+}
+.footer_text{
+ width: 68.4rem;
+  
+}
+
+.footer_text p{
+    font-family:'Golos';
+    font-weight:200;
+    font-size: 1.13rem;
+    font-style: normal;
+    line-height:1.4rem;
+    
+    color:#FFFFFF;
+   text-align:center;
+}
+
+.footer_right{
+width: 25.8rem;
+
+
+}
+
+@font-face {
+    font-family:'Golos';
+    src: url('Golos-Text.ottt/PT/PT/Golos-Text/Golos-Text_Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Open Sans';
+    src: url('Fonts/open_sans/Open_Sans/OpenSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}

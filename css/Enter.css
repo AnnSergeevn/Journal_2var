@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'Golos';
+  src: url("Golos-Text.ottt/PT/PT/Golos-Text/Golos-Text_Regular.ttf");
+}
+@font-face {
+  font-family: 'Oswald';
+  src: url("Oswald/static/Oswald-Regular.ttf");
+}
+@font-face {
+  font-family: 'Fundamental Brigade';
+  src: url("Fundamental Brigade/Fundamental 3D Brigade.ttf");
+}
+.block {
+  margin-top: 1rem;
+}
+
+h2 {
+  height: 4.3rem;
+  text-align: center;
+  font-family: "Golos";
+  font-weight: 200;
+  font-size: 2.1rem;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.Sign-in {
+  width: 21.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Sign-in_header {
+  width: 21.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+
+.Sign-in_login {
+  height: 1.9rem;
+  width: 21.1rem;
+  font-family: "Golos";
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1.4;
+  color: black;
+  background-color: #E5C3BD;
+  background-clip: padding-box;
+  border: 0.2rem solid  #A84F3D;
+}
+.Sign-in_login:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #A84F3D;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+.Sign-in_password {
+  height: 1.9rem;
+  margin-top: 2.2rem;
+  width: 21.1rem;
+  font-family: "Golos";
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1.4;
+  color: black;
+  background-color: #E5C3BD;
+  background-clip: padding-box;
+  border: 0.2rem solid  #A84F3D;
+}
+.Sign-in_password:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #A84F3D;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+.Sign-in_login_header {
+  height: 1.9rem;
+  width: 21.1rem;
+  font-family: "Golos";
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1.4;
+  color: black;
+  background-color: #E5C3BD;
+  background-clip: padding-box;
+  border: 0.2rem solid  #A84F3D;
+}
+.Sign-in_login_header:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #A84F3D;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+.Sign-in_password_header {
+  height: 1.9rem;
+  margin-top: 2.2rem;
+  width: 21.1rem;
+  font-family: "Golos";
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1.4;
+  color: black;
+  background-color: #E5C3BD;
+  background-clip: padding-box;
+  border: 0.2rem solid  #A84F3D;
+}
+.Sign-in_password_header:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #A84F3D;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+.Sign-in_block-enter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.Sign-in_regist {
+  height: 3.7rem;
+  width: 12rem;
+}
+.Sign-in_question {
+  text-align: center;
+  height: 2.5rem;
+}
+.Sign-in_restore_access {
+  height: 3.7rem;
+  width: 12rem;
+}
+
+a.Sign-in_regist {
+  text-decoration: none;
+  color: black;
+  font-family: 'Golos';
+  font-weight: 200;
+  font-size: 1.5rem;
+  font-style: normal;
+  line-height: 1.4rem;
+  padding-top: 1.3rem;
+  text-align: left;
+}
+
+a.Sign-in_question {
+  font-family: 'Golos';
+  font-weight: 200;
+  font-size: 1.5rem;
+  font-style: normal;
+  line-height: 1.4rem;
+  text-decoration: none;
+  color: black;
+  text-decoration: none;
+}
+
+a.Sign-in_restore_access {
+  text-decoration: none;
+  color: black;
+  font-family: 'Golos';
+  font-weight: 200;
+  font-size: 1.1rem;
+  font-style: normal;
+  padding-top: 1.3rem;
+  text-align: left;
+}
+
+/*# sourceMappingURL=Enter.css.map */

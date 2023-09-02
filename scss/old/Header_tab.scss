@@ -1,0 +1,82 @@
+$font-stack: 'Golos';
+$primary-color: #F8EEE9;
+$color_text:#727374;
+
+@import "fonts";
+
+/* Стиль вкладок */
+.tab {
+  overflow: hidden;
+ 
+ 
+}
+
+/* Стиль кнопок внутри вкладок */
+.tab button {
+ background-color:#FFFFFF;
+  float: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.2rem 0.7rem;
+  transition: 0.3s;
+  font-family: $font-stack;
+  font-weight: 100;
+  color: #727374;
+  font-size: 2.6rem;
+}
+
+.tab button:hover {
+  background-color: $primary-color;
+}
+
+
+/* Изменение цвета фона кнопок при наведении курсора мыши */
+.tab button.active:hover {
+  background-color: $primary-color;
+}
+
+/* Создание активного/текущего класса связей вкладок */
+.tab button.active {
+  background-color:$primary-color;
+
+}
+
+/* Стиль содержимого вкладки */
+.tabcontent {
+
+ display: none;
+  flex-direction: column;
+    padding: 0.2rem 0.7rem;
+    border: 0.31rem solid #ccc;
+    border-top: none;
+  width: 27rem;
+  height: 10.8rem;
+  float: right;
+ background-color:$primary-color;
+
+position: absolute;
+margin-left:-19rem;
+}
+
+
+
+/* Стиль кнопки закрытия */
+.topright {
+  float: right;
+  cursor: pointer;
+ 
+  color: #A84F3D;
+margin-top:-3.6rem;
+font-family: $font-stack;
+  font-weight: 400;
+ 
+  font-size: 2.6rem;
+}
+
+.topright:hover {color: red;}
+
+
+
+
+

@@ -1,0 +1,204 @@
+
+@charset "UTF-8";
+@font-face {
+  font-family: 'Golos';
+  src: url("Golos-Text.ottt/PT/PT/Golos-Text/Golos-Text_Regular.ttf");
+}
+@font-face {
+  font-family: 'Oswald';
+  src: url("Oswald/static/Oswald-Regular.ttf");
+}
+@font-face {
+  font-family: 'Fundamental Brigade';
+  src: url("Fundamental Brigade/Fundamental 3D Brigade.ttf");
+}
+/*
+Расширение/Наследование
+*/
+.language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  padding-top: 0.4rem;
+}
+
+
+.language__Russia-Flag {
+  width: 2.9rem;
+  height: 2.2rem;
+  margin-right: 1.5rem;
+  float: right;
+}
+.language__United-States-Flag {
+  width: 2.9rem;
+  height: 2.2rem;
+  margin-right: 0.2rem;
+  float: right;
+}
+
+.registrarion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-right: 11.5rem;
+}
+
+
+
+
+.regist_link:after{
+	
+content: '';
+
+ border: 0.1rem solid #727374;;
+
+ display: inline-block;
+
+ height: 3rem;
+
+ position: absolute;
+
+ margin: 0.5rem 0 0 1.5rem;
+}
+.regist_link{
+	
+margin-right:2rem;	
+}
+.header__top {
+  width: 120rem;
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.header__top li {
+  list-style-type: none;
+  /* Убираем маркеры */
+}
+.header__top a {
+  font-family: "Golos";
+  font-weight: 400;
+  color: #727374;
+  font-size: 2.6rem;
+  /* identical to box height */
+  text-align: right;
+  margin-left: 0.2rem;
+  text-decoration: none;
+  float: right;
+}
+.header__top_searche {
+  width: 1.9rem;
+  height: 1.9rem;
+  margin-right: 1.4rem;
+  float: right;
+}
+.header__container {
+  height: 14rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 120rem;
+}
+.header__logo {
+  height: 15rem;
+  width: 26.8rem;
+  text-align: right;
+}
+.header__logo img {
+  height: 14rem;
+}
+.header__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.header__title-slogon {
+  width: 68.4rem;
+  height: 2.5rem;
+  font-family: "Golos";
+  font-weight: bold;
+  color: #A84F3D;
+  font-size: 2rem;
+  padding-left: 2.7rem;
+}
+.header__title-name {
+  font-family: "Fundamental Brigade";
+  font-weight: 400;
+  color: #A84F3D;
+  font-size: 4.38rem;
+  height: 8.1rem;
+  padding-left: 2.7rem;
+}
+.header__issn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.header__issn_online {
+  height: 1.8rem;
+  width: 25.8rem;
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 1.49rem;
+  font-style: normal;
+}
+.header__issn_print {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 1.49rem;
+  font-style: normal;
+  height: 6rem;
+}
+.header__menu {
+  background: #A84F3D;
+  height: 1.7rem;
+  width: 120rem;
+  margin-top: 1rem;
+}
+.header__line {
+  height: 0.2rem;
+  margin-top: 1rem;
+  background: #A84F3D;
+  width: 120rem;
+}
+
+
+.header__top_searche {
+  width: 1.9rem;
+  height: 1.9rem;
+  margin-right: 1.4rem;
+  float: right;
+
+}
+
+/*# sourceMappingURL=header.css.map */

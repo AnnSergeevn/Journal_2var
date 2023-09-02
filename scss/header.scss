@@ -1,0 +1,161 @@
+$font-stack: 'Golos';
+$font-title:'Fundamental Brigade';
+$font-issn:'Oswald';
+$primary-color: #A84F3D;
+$color_text:#727374;
+
+$width: 120rem;
+
+@import "fonts";
+@import "mixin";
+
+/*
+Расширение/Наследование
+*/
+
+
+.language{
+	@include flex-row-reverse;
+	padding-top:0.4rem;
+	
+		&__Russia-Flag{
+			width: 2.9rem;
+			height: 2.2rem;
+			margin-right:1.5rem;
+			float: right;
+		}
+		&__United-States-Flag{
+			width: 2.9rem;
+			height: 2.2rem;
+			margin-right:0.2rem;
+			float: right;
+		}
+	}
+
+.registrarion{
+			@include flex-row-reverse;
+			margin-right:11.5rem;
+		}
+
+.header{
+
+
+	&__top{
+    width: $width;
+    height: 3rem;
+    display:flex;
+    flex-direction:row-reverse;
+
+		li {
+			list-style-type: none; /* Убираем маркеры */
+		}
+   
+		
+		
+		a{
+			font-family:$font-stack;
+			font-weight:400;
+			color: $color_text;
+			font-size: 2.6rem;
+			/* identical to box height */
+			text-align: right;
+			margin-left:0.2rem;
+			text-decoration: none;
+			float: right;
+		}
+		
+		&_searche{
+			width: 1.9rem;
+			height: 1.9rem;
+			margin-right:1.4rem;
+			float: right;
+		}
+           }
+		
+
+   
+	
+	
+	&__container{
+		height: 14rem;
+		display:flex;
+		flex-direction:row;
+		width: 120rem;
+	}
+	
+	&__logo{
+    height: 15rem;
+    width: 26.8rem;
+    text-align: right;
+	
+		img{
+    
+			height: 14rem;
+   
+		}
+	
+	}
+	
+	&__title{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+	
+		&-slogon{
+			width: 68.4rem;
+			height: 2.5rem;
+			font-family:$font-stack;
+			font-weight:bold;
+			color: #A84F3D;
+			font-size: 2rem;
+			padding-left:2.7rem;
+		}
+		
+		&-name{
+			font-family:$font-title;
+			font-weight:400;
+			color: #A84F3D;
+			font-size: 4.38rem;
+			height: 8.1rem;
+			padding-left:2.7rem;
+		}
+	
+	}
+	&__issn{
+   
+		display:flex;
+		flex-direction:column;
+		justify-content: flex-end;
+		&_online{
+			height: 1.8rem;
+			width: 25.8rem;    
+			font-family:$font-issn;
+			font-weight:400;
+			font-size: 1.49rem;
+			font-style: normal;
+      
+		}
+		&_print{
+			font-family:$font-issn;
+			font-weight:400;
+			font-size: 1.49rem;
+			font-style: normal;
+			height: 6rem;
+		}
+	}
+	
+	&__menu{
+		background:$primary-color;
+		height: 1.7rem;
+		width: 120rem;
+		margin-top:1rem;
+	}
+	
+	&__line{
+    height: 0.2rem;
+    margin-top:1rem;
+    background:$primary-color;
+    width: 120rem;
+	}
+
+}

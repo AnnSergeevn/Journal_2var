@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Golos';
+  src: url("Golos-Text.ottt/PT/PT/Golos-Text/Golos-Text_Regular.ttf");
+}
+@font-face {
+  font-family: 'Oswald';
+  src: url("Oswald/static/Oswald-Regular.ttf");
+}
+@font-face {
+  font-family: 'Fundamental Brigade';
+  src: url("Fundamental Brigade/Fundamental 3D Brigade.ttf");
+}
+.button-red {
+  height: 1.8rem;
+  width: 9rem;
+  margin-top: 1.3rem;
+  background-color: #A84F3D;
+  color: white;
+  font-family: "Golos";
+  border: #A84F3D;
+  padding: 0px 2rem 0rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: "Golos";
+}
+
+.button-red:disabled {
+	
+ background-color: #C79B93;	
+}
+
+.button-red_header__ {
+  height: 1.8rem;
+  width: 9rem;
+  margin-top: 1.3rem;
+  background-color: #A84F3D;
+  color: white;
+  font-family: "Golos";
+  border: #A84F3D;
+  padding: 0px 2rem 0rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: "Golos";
+}
+
+
+/*# sourceMappingURL=style_Enter_aside_left.css.map */

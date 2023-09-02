@@ -1,0 +1,236 @@
+$font-stack: 'Golos';
+
+$color_content:#F8EEE9;
+$color_bar:#E5C3BD;
+$color_menu_active:#A84F3D;
+$color_text_left-bar__menu:#6E6665;
+@import "fonts";
+@import "mixin";
+
+*,
+*::before,
+*::after{
+box-sizing:border-box;
+}
+
+body{
+margin:0;
+padding:0;
+}
+
+.content{
+    background:$color_content;
+    margin-top:2rem;
+    width: 120rem;
+    display:flex;
+    flex-direction:row wrap;
+    min-height:auto;
+    margin-bottom:-1rem;
+  }
+  
+.left-bar{
+    background:$color_bar;
+    width: 25.8rem;
+    box-sizing: border-box; 
+    min-height:auto;
+    padding-bottom:12rem;
+
+
+		& li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+
+		& ul {
+    margin-left: 0; 
+    padding-left: 0; 
+   }
+ }
+
+a.left-bar__menu_item_active{
+    font-family:$font-stack;
+    font-weight:bold;
+    font-size: 1.65rem;
+    line-height: 1.5rem;    
+    background-color: $color_menu_active;
+    color: white;
+    padding:0.5rem  0.5rem 0rem 0.5rem;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    width:22.5rem;
+    height:2.4rem;
+    margin-top:1.5rem;
+    margin-left:2rem;
+
+}
+
+a.left-bar__menu_item_active-height{
+    font-family:$font-stack;
+    font-weight:bold;
+    font-size: 1.65rem;
+    line-height: 1.5rem;    
+    background-color: $color_menu_active;
+    color: white;
+    padding:0.5rem 0.5rem 1.31rem 0.5rem;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    width:22rem;
+    height:5.5rem;
+    margin-left:2rem;
+     margin-top:1.5rem;
+}
+
+a.left-bar__menu_item {
+    text-decoration: none;
+    font-family:$font-stack;
+    font-weight:bold;
+    font-size: 1.65rem;
+    line-height: 1.6rem;
+    top:4rem;
+    padding:0 0 0 0.9rem; /* Поля вокруг текста */
+    display:flex;
+    flex-direction:column;
+    width:23rem;
+    margin-left:1.5rem;
+    margin-top:1.5rem;
+    margin-bottom:0rem;
+    color: $color_text_left-bar__menu;
+}
+
+
+.article{
+  min-height:auto;
+    width: 68.4rem;
+padding-bottom:12rem;
+
+
+	&__main-title{
+    font-family:$font-stack;
+    font-weight:900;
+    color: #A84F3D;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 1rem;
+	}
+
+	&__main-text{
+    display:flex;
+    flex-direction:column;
+    padding-left:2rem;
+    padding-right:2rem;
+	
+		& li{
+		font-family:$font-stack;
+		font-weight:400;
+		font-size: 1.5rem;
+		line-height:1.5rem;
+		}
+
+		& a{
+		color: blue;
+		font-family:$font-stack;
+		font-weight:400;
+		font-size: 1.5rem;
+		font-style: normal;
+		line-height:1.5rem;
+		}
+	
+	}
+
+	&__main-text p{
+    font-family:$font-stack;
+    font-weight:400;
+    font-size: 1.5rem;
+   line-height:1.5rem;
+   margin-bottom:0rem;
+   text-align:justify;
+	}
+}
+
+.rtecenter p{
+ text-align:center;
+}
+
+.rteright p{
+text-align:right;
+}
+
+.trejustify ul{
+list-style:none;
+}
+
+.trejustify ul li:before{
+content:"–";
+
+}
+
+
+
+caption{
+
+    font-family:$font-stack;
+    font-weight:400;
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height:1.5rem;
+}
+
+img.rus {
+height: 2rem;
+    width: 4rem;
+}
+
+img.international {
+height: 2rem;
+width: 4rem;
+}
+
+.right-bar{
+    width: 25.8rem;
+    display:flex;
+    flex-direction:column;
+    padding-top:1.7rem;
+    background:$color_bar;
+    box-sizing: border-box;
+    min-height:auto;
+}
+
+.block-button-submit-article{
+  height:6.5rem;
+  padding-top:2rem;
+margin-left:auto;
+ margin-right:auto;
+
+}
+
+.button-submit-article {
+    padding: 1.25rem 1.3rem 1.25rem;
+    box-sizing:border-box;
+    text-align: center;
+    text-decoration: none; 
+    border:0.2rem solid $color_menu_active;
+    color: black;
+    font-family:$font-stack;
+    font-weight:200;
+    font-size: 2.13rem;
+    font-style: normal;
+    line-height:1.4rem;
+    text-decoration: none;
+    color: #4A4A4A;
+    position: relative;
+    z-index: 1;
+}
+
+.button-submit-article:before  {
+	  content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0rem;
+    width: 0;
+    height: 100%; /* Высота линии */
+    background-color: rgb(222, 222, 222); /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+    z-index: -1;
+}

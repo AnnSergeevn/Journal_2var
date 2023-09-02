@@ -1,0 +1,198 @@
+$font-stack: 'Golos';
+
+@import "fonts";
+
+
+.block {
+margin-top:1rem;
+}
+
+h2{
+     height:4.3rem;
+    text-align: center;
+
+   font-family:$font-stack;
+    font-weight:200;
+    font-size: 2.1rem;
+    font-style: normal;
+    
+    text-decoration: none; 
+    color: black;
+}
+
+.Sign-in{
+    width: 21.1rem;
+    display:flex;
+    flex-direction:column;
+    
+ margin-left:auto;
+ margin-right:auto;
+
+
+	&_login{
+     
+     height:1.9rem;   
+      width: 21.1rem;
+      font-family: $font-stack;
+      font-size: 1.2rem;
+      font-weight: 200;
+      line-height: 1.4;
+      color: black;
+      background-color: #E5C3BD;
+      background-clip: padding-box;
+      border: 0.2rem solid  #A84F3D;
+       
+			}
+
+	&_login:focus {
+      
+
+      color: #212529;
+      background-color: #fff;
+      border-color: #A84F3D;
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+					}
+
+	&_password{
+     
+     height:1.9rem;
+    margin-top:2.2rem;
+       width: 21.1rem;
+      font-family: $font-stack;
+      font-size: 1.2rem;
+      font-weight: 200;
+      line-height: 1.4;
+      color: black;
+      background-color: #E5C3BD;
+      background-clip: padding-box;
+      border: 0.2rem solid  #A84F3D;
+       
+	}
+
+	&_password:focus {
+      color: #212529;
+      background-color: #fff;
+      border-color: #A84F3D;
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+    }
+
+	&_login_header{
+     
+     height:1.9rem;   
+      width: 21.1rem;
+      font-family: $font-stack;
+      font-size: 1.2rem;
+      font-weight: 200;
+      line-height: 1.4;
+      color: black;
+      background-color: #E5C3BD;
+      background-clip: padding-box;
+      border: 0.2rem solid  #A84F3D;
+       
+			}
+
+	&_login_header:focus {
+      
+
+      color: #212529;
+      background-color: #fff;
+      border-color: #A84F3D;
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+					}
+
+	&_password_header{
+     
+     height:1.9rem;
+    margin-top:2.2rem;
+       width: 21.1rem;
+      font-family: $font-stack;
+      font-size: 1.2rem;
+      font-weight: 200;
+      line-height: 1.4;
+      color: black;
+      background-color: #E5C3BD;
+      background-clip: padding-box;
+      border: 0.2rem solid  #A84F3D;
+       
+	}
+
+	&_password_header:focus {
+      color: #212529;
+      background-color: #fff;
+      border-color: #A84F3D;
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+    }
+
+
+	&_block-enter{
+    display:flex;
+    flex-direction:row;
+   
+	}
+	
+	&_regist{
+	height:3.7rem;
+	width: 12rem;   
+	}
+
+
+	&_question{
+      text-align: center;
+    height:2.5rem;
+	}
+	
+	
+
+	&_restore_access{
+	height:3.7rem;
+	width: 12rem;  
+	}
+
+	
+    
+ 
+}
+
+  
+
+
+a.Sign-in_regist{
+    text-decoration: none; 
+    color:black;
+    font-family:'Golos';
+    font-weight:200;
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height:1.4rem;	
+ padding-top:1.3rem;
+text-align: left;
+}
+
+
+
+
+a.Sign-in_question{
+    font-family:'Golos';
+    font-weight:200;
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height:1.4rem;
+    text-decoration: none;
+    color:black;
+    text-decoration: none;
+}
+a.Sign-in_restore_access{
+text-decoration: none; 
+    color:black;
+    font-family:'Golos';
+    font-weight:200;
+    font-size: 1.1rem;
+    font-style: normal;
+    
+ padding-top:1.3rem;
+text-align: left;
+}

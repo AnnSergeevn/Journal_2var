@@ -1,0 +1,255 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Golos';
+  src: url("Golos-Text.ottt/PT/PT/Golos-Text/Golos-Text_Regular.ttf");
+}
+@font-face {
+  font-family: 'Oswald';
+  src: url("Oswald/static/Oswald-Regular.ttf");
+}
+@font-face {
+  font-family: 'Fundamental Brigade';
+  src: url("Fundamental Brigade/Fundamental 3D Brigade.ttf");
+}
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  background: #F8EEE9;
+  margin-top: 2rem;
+  width: 120rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row wrap;
+          flex-direction: row wrap;
+  min-height: auto;
+  margin-bottom: -1rem;
+}
+
+.left-bar {
+  background: #E5C3BD;
+  width: 25.8rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: auto;
+  padding-bottom: 12rem;
+}
+.left-bar li {
+  list-style-type: none;
+  /* Убираем маркеры */
+}
+.left-bar ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+a.left-bar__menu_item_active {
+  font-family: "Golos";
+  font-weight: bold;
+  font-size: 1.65rem;
+  line-height: 1.5rem;
+  background-color: #A84F3D;
+  color: white;
+  padding: 0.5rem  0.5rem 0rem 0.5rem;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  width: 22.5rem;
+  height: 2.4rem;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+}
+
+a.left-bar__menu_item_active-height {
+  font-family: "Golos";
+  font-weight: bold;
+  font-size: 1.65rem;
+  line-height: 1.5rem;
+  background-color: #A84F3D;
+  color: white;
+  padding: 0.5rem 0.5rem 1.31rem 0.5rem;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  width: 22rem;
+  height: 5.5rem;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+}
+
+a.left-bar__menu_item {
+  text-decoration: none;
+  font-family: "Golos";
+  font-weight: bold;
+  font-size: 1.65rem;
+  line-height: 1.6rem;
+  top: 4rem;
+  padding: 0 0 0 0.9rem;
+  /* Поля вокруг текста */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 23rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0rem;
+  color: #6E6665;
+}
+
+.article {
+  min-height: auto;
+  width: 68.4rem;
+  padding-bottom: 12rem;
+}
+.article__main-title {
+  font-family: "Golos";
+  font-weight: 900;
+  color: #A84F3D;
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 1rem;
+}
+.article__main-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.article__main-text li {
+  font-family: "Golos";
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+.article__main-text a {
+  color: blue;
+  font-family: "Golos";
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-style: normal;
+  line-height: 1.5rem;
+}
+.article__main-text p {
+  font-family: "Golos";
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 0rem;
+  text-align: justify;
+}
+
+.rtecenter p {
+  text-align: center;
+}
+
+.rteright p {
+  text-align: right;
+}
+
+.trejustify ul {
+  list-style: none;
+}
+
+.trejustify ul li:before {
+  content: "–";
+}
+
+caption {
+  font-family: "Golos";
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-style: normal;
+  line-height: 1.5rem;
+}
+
+img.rus {
+  height: 2rem;
+  width: 4rem;
+}
+
+img.international {
+  height: 2rem;
+  width: 4rem;
+}
+
+.right-bar {
+  width: 25.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 1.7rem;
+  background: #E5C3BD;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: auto;
+}
+
+.block-button-submit-article {
+  height: 6.5rem;
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-submit-article {
+  padding: 1.25rem 1.3rem 1.25rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  border: 0.2rem solid #A84F3D;
+  color: black;
+  font-family: "Golos";
+  font-weight: 200;
+  font-size: 2.13rem;
+  font-style: normal;
+  line-height: 1.4rem;
+  text-decoration: none;
+  color: #4A4A4A;
+  position: relative;
+  z-index: 1;
+}
+
+.button-submit-article:before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0rem;
+  width: 0;
+  height: 100%;
+  /* Высота линии */
+  background-color: #dedede;
+  /* Цвет подчеркивания при исчезании линии*/
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+  /* Время эффекта */
+  z-index: -1;
+}
+
+/*# sourceMappingURL=First_sidebar.css.map */
